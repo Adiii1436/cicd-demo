@@ -10,7 +10,7 @@ app = FastAPI(
 @app.get("/")
 def home():
     return {
-        "message": "FastAPI V2 app is running successfully"
+        "message": "FastAPI V3 app is running successfully"
     }
 
 
